@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<string>YES</string>
+			<key>defaults</key>
+			<string>org.unixlife.ios.cydia.lockinfo.ThingsPlugin</string>
+			<key>key</key>
+			<string>Enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<string>YES</string>
+			<key>defaults</key>
+			<string>org.unixlife.ios.cydia.lockinfo.ThingsPlugin</string>
+			<key>key</key>
+			<string>ShowNext</string>
+			<key>label</key>
+			<string>Show Next Tasks</string>
+		</dict>
+		<dict>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<string>1</string>
+			<key>defaults</key>
+			<string>org.unixlife.ios.cydia.lockinfo.ThingsPlugin</string>
+			<key>key</key>
+			<string>DueInDays</string>
+			<key>label</key>
+			<string>Due in Days</string>
+			<key>validTitles</key>
+			<array>
+				<string>Do not show due</string>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>4</string>
+				<string>5</string>
+				<string>6</string>
+				<string>7</string>
+				<string>14</string>
+				<string>30</string>
+				<string>All</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<string>-1</string>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>4</string>
+				<string>5</string>
+				<string>6</string>
+				<string>7</string>
+				<string>14</string>
+				<string>30</string>
+				<string>999</string>
+			</array>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Things</string>
+</dict>
+</plist>
